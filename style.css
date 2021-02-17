@@ -77,6 +77,14 @@
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover{
+  margin: 5px 5px;
+  width: 560px;
+  border-radius: 15px;
+  filter:  saturate(0.5) opacity(0.5);
+  transition: 2s;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
