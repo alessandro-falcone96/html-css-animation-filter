@@ -63,8 +63,8 @@
 }
 
 .ex-7-img:hover{
-  filter: sepia(0.8);
-  transition: 1s;
+  filter: sepia(0.8) grayscale(100%);
+  transition: 2s;
 }
 
 .ex-9-img {
