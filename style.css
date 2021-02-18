@@ -152,8 +152,33 @@
   animation-iteration-count: infinite;
 }
 @keyframes rotation-3{
-  50%{transform: translate(calc(200px - 40px - 60px));}
+  50%{transform: translateX(calc(200px - 40px - 60px));}
 }
 @keyframes rotation-4{
-  50%{transform: translate(calc((200px - 80px - 60px) * -1));}
+  50%{transform: translateX(calc((200px - 80px - 60px) * -1));}
+}
+
+.ex-13-top-white{
+  animation-name: rotation-5;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.ex-13-bottom-white{
+  animation-name: rotation-6;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation-5{
+  25%{transform: translateX(150px);}
+  50%{transform: translate(150px, 70px);}
+  75%{transform: translate(-30px, 70px);}
+  100%{transform: translate(-30px, -5px);}
+}
+@keyframes rotation-6{
+  25%{transform: translateX(-110px);}
+  50%{transform: translate(-110px, -70px);}
+  75%{transform: translate(70px, -70px);}
+  100%{transform: translate(70px, 10px);}
 }
